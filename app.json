@@ -1,24 +1,39 @@
-    "env": {
-      "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": ""
-      },
-      "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": ""
-      },
-       "TG_BOT_TOKEN": {
-        "description": "Your bot token, as a string. Get it from @BotFather on telegram",
-        "value": ""
-      }
+{
+
+  "name": "Heroku-Manga-DL-Bot",
+
+  "description": "Get manga Dl",
+
+  "keywords": ["manga","python"],
+
+  "repository": "https://github.com/Nchuuya/api",
+
+  "env": {
+
+    "BOT_TOKEN": {
+
+      "description": "Your bot token, as a string.",
+
+      "value": ""
+
     },
-    "buildpacks": [{
-      "url": "heroku/python"
-    }],
-    "formation": {
-      "worker": {
-        "quantity": 1,
-        "size": "free"
-      }
+
+    "API_ID": {
+
+      "description": "Get this value from https://my.telegram.org",
+
+      "value": ""
+
+    },
+
+    "API_HASH": {
+
+      "description": "Get this value from https://my.telegram.org",
+
+      "value": ""
+
     }
+
   }
+
+}
