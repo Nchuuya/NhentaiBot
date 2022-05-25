@@ -21,4 +21,4 @@ class Nhentai():
             await bot.send_message(
                 event.chat_id,
                 "Open this in google chrome",
-                file= f"{code}.html"
+                file= f"{code}.html")
